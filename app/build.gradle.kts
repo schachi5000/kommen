@@ -44,5 +44,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation("com.github.schachi5000:kommon-android:dev-SNAPSHOT")
+//    implementation("com.github.schachi5000:kommon-android:dev-SNAPSHOT")
 }
