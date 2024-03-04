@@ -1,7 +1,7 @@
 plugins {
-    id("maven-publish")
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("maven-publish")
 }
 
 version = "1.0-SNAPSHOT"
