@@ -1,18 +1,17 @@
 plugins {
-    alias(libs.plugins.androidApplication)
+    alias(libs.plugins.androidLibrary)
     alias(libs.plugins.jetbrainsKotlinAndroid)
 }
+
+version = "1.0-SNAPSHOT"
 
 android {
     namespace = "pro.schacher.kommon.android"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "pro.schacher.kommon.android"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
