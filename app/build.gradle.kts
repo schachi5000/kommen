@@ -46,3 +46,15 @@ dependencies {
 
 //    implementation("com.github.schachi5000:kommon-android:dev-SNAPSHOT")
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "pro.schacher"
+                artifactId = "kommon-android"
+            }
+        }
+    }
+}
